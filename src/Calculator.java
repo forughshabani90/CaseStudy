@@ -1,4 +1,4 @@
-public class AppOpt {
+public class Calculator {
     public static void main(String[] args) {
         Opt opt = new Opt();
         System.out.println(opt.sum(1, 2));
@@ -8,6 +8,6 @@ public class AppOpt {
         System.out.println(opt.sin(30));
         System.out.println(opt.cos(45));
         System.out.println(opt.tan(60));
-        System.out.println(opt.tan(90));
+//        System.out.println(opt.cot(90));
     }
 }

@@ -21,22 +21,24 @@ public class Opt {
     }
 
     public double sin(int a) {
-        double c=sin(a);
+        double c = Math.sin(a);
         return c;
     }
-    public double cos(int a){
-        double c=cos(a);
+
+    public double cos(int a) {
+        double c = Math.cos(a);
         return c;
     }
 
     public double tan(int a) {
-        double c = tan(a);
+        double c = Math.tan(a);
         return c;
     }
-    public double cot(int a){
-        double c=cot(a);
-        return c;
 
-    }
+//    public double cot(int a) {
+//        double c = Math.co
+//        return c;
+//
+//    }
 }
 
